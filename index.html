@@ -8,35 +8,101 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Cam Kelly</title>
 </head>
+
+
 <body>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#skills">My Skills</a>
-        <a href="#work">Recent Work</a>
-        <a href="#contact">Contact Me</a>
+    <nav class="sticky">
+        <a class="nav" href="#about">About Me</a>
+        <a class="nav" href="#skills">My Skills</a>
+        <a class="nav" href="#work">Recent Work</a>
+        <a id="contactNav" class="contact" href="#contact">Contact Me</a>
     </nav>
-    <main>
-        <p>Hi, I'm<br/><span id="name">Cam Kelly </span></br>Web Designer</p>
+
+
+    <main id="main">
+        <p class="intro">Hi, I'm<br/><span class="firstName">Cam </span><span class="lastName">Kelly</span></br>Web Designer</p>
+        <a id="contactButton" class="contact" href="#contact">CONTACT</a>
+        <a class="resumeButton" href="resume.pdf" target="win_res">RESUME</a>
     </main>
-    <section id="about">
-        <h1>About Me</h1>
-        <p>I am currently a Pre-Junior at Drexel University. I am working towards my major in <span id="major">User Experience and Interaction Design</span> with a minor in <span id="minorComp">Computer Science</span> as well as <span id="minorHum">Human Computer Interaction</span>. The combination of the technical and the creative, which is quite unique, is what drew me to my major. I enjoy the coding side of UXID because of its puzzle-like nature, as well as the logic and structure that comes with it. I also find an ease of expression through the design and creativity of my major.</p>
+
+
+    <section id="about" class="aboutList">
+        <h1 class="right">About Me</h1>
+        <p class="aboutPara">I am currently a Pre-Junior at Drexel University. <br />I am working towards my major in <span class="major"><b>User Experience and Interaction Design</b></span><br /> with a minor in <span class="minor"><b>Computer Science</b></span> as well as <span class="minor"><b>Human Computer Interaction</b></span>.<br /> The combination of the technical and the creative, which is quite unique, is what drew me to my major.<br /> I enjoy the coding side of UXID because of its puzzle-like nature,<br /> as well as the logic and structure that comes with it.<br /> I also find an ease of expression through the design and creativity of my major.</p>
     </section>
-    <section id="skills">
-        <h1>My Skills</h1>
+
+
+    <div id="skills" class="skillsList">
+        <h1 class="left">My Skills</h1>
+        <span class="skills">
+            <h3>Softwares</h3>
+            <i class="material-icons" style="font-size:35px; color: #1c6d6b;">create</i>
+            <ul>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Figma</li>
+            </ul>
+        </span>
+
+        <span class="skills">
+            <h3>Languages</h3>
+            <i class="material-icons" style="font-size:45px; color: #1c6d6b;">code</i>
+            <ul>
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Swift</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>MySQL</li>
+            </ul>
+        </span>
+
+        <span class="skills">
+            <h3>Frameworks</h3>
+            <i class="material-icons" style="font-size:40px; color: #1c6d6b;">settings</i>
+            <ul>
+                <li>PostgreSQL</li>
+                <li>JUnit</li>
+                <li>JMockit</li>
+                <li>Mockito</li>
+            </ul>
+        </span>
+    </div>
+
+
+    <section id="work" class="work">
+        <h1 class="right">Recent Work</h1>
     </section>
-    <section id="work">
-        <h1>Recent Work</h1>
-    </section>
-    <section id="contact">
-        <h1>Contact Me</h1>
-        <ul>
-            <li><i>Phone:</i> (302)-312-6233</li>
-            <li><i>E-mail:</i> cjk327@drexel.edu</li>
-            <li><i>LinkedIn:</i> <a href="https://www.linkedin.com/in/camrynkelly/"  target="win_linkedIn">Camryn Kelly</a></li>
-        </ul>
-    </section>
+
+
+    <div id="contact" class="contactList">
+        <h1 class="left">Contact Me</h1>
+        <span class="contactSect">
+            <i class="material-icons" style="font-size:40px; color: #1c6d6b;">email</i>
+            <p>Want to get in touch? Feel free to e-mail me at any time!</p>
+            <p><b>(302)-312-6233</b></p>
+        </span>
+
+        <span class="contactSect">
+            <i class="material-icons" style="font-size:40px; color: #1c6d6b;">settings_phone</i>
+            <p>Have a quick question? Just give me a call!</p>
+            <p><b>cjk327@drexel.edu</b></p>
+        </span>
+
+        <span class="contactSect">
+            <i class="fa fa-linkedin-square" style="font-size:45px;color: #1c6d6b;"></i>
+            <p>Want to learn more about me? Here's my LinkedIn!</p>
+            <p><b><a href="https://www.linkedin.com/in/camrynkelly/"  target="win_linkedIn">Camryn Kelly</a></b></p>
+        </span>
+    </div>
+    <footer>
+        <a href="#main"><i class="fa fa-angle-double-up" style="font-size:60px;color:black;"></i></a>
+    </footer>
 </body>
 </html>
