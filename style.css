@@ -1,20 +1,168 @@
+nav {
+    padding: 40px;
+    text-align: end;
+    overflow: hidden;
+    background-color: white;
+}
+.contact:hover{
+    color: #ffffff;
+    background-color: #1c6d6b;
+}
+#contactButton {
+    font-size: 1.2em;
+    margin-left: 13.5em;
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav, #contactNav {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contact {
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #1c6d6b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.resumeButton {
+    font-size: 1.2em;
+    margin-left: 1em;
+    padding: 30px;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.resumeButton:hover {
+    color: #ffffff !important;
+    background-color:#000000;
+}
+main, section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+main {
+    background: linear-gradient(45deg, #F9F9F9 50%, #1c6d6b 50%);
+    padding-bottom: 6em;
+}
+.firstName {
+    color:#1c6d6b;
+    font-weight: bold;
+}
+.lastName {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #9EBFAF;
+    font-weight: bolder;
+}
+.intro {
+    font-size: 4em;
+    padding-left: 4em;
+}
 body {
     font-family: Helvetica, sans-serif;
 }
 h1 {
     font-family: 'Carrois Gothic SC', sans-serif;
+    font-style: italic;
+    font-size: 3em;
 }
-#major{
-    font-family: 'Carrois Gothic SC', sans-serif;
-    color: #e69138;
+.left {
+    text-align: left;
+    padding-left: 5em;
+    font-size: 3.5rem;
 }
-#name, #minorComp, #minorHum{
+.right {
+    text-align: right;
+    padding-right: 5em;
+    font-size: 3.5rem;
+}
+.aboutList {
+    margin-top: 2em;
+}
+.aboutPara {
+    margin-left: 11em;
+    margin-right: 11em;
+    padding-left: 1.5em;
+    padding-bottom: 1em;
+    line-height: 200%;
+    font-size: 1.25em;
+    border-left-style: solid;
+    border-left-color: #9EBFAF;
+    border-left-width: .25em;
+    border-bottom-style: solid;
+    border-bottom-color: #9EBFAF;
+    border-bottom-width: .25em;
+}
+.major, .minor {
     font-family: 'Carrois Gothic SC', sans-serif;
     color: #1c6d6b;
+    font-weight: bolder;
 }
-a, a:visited{
+.skills {
+    border-top-width: 1.5em;
+}
+.skillsList {
+    padding-top: 2em;
+    background-color: #F9F9F9;
+    padding-bottom: 2rem;
+}
+.skills, .contactSect {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: .5rem;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: #9EBFAF;
+    box-shadow: 5px 5px #1c6d6b;
+    background-color: white;
+}
+div, .contactList {
+    text-align: center;
+}
+.contactSect {
+    margin-top: 1em;
+}
+.contactSect p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.contactList {
+    background: linear-gradient(180deg, #9EBFAF 50%, white 50%);
+    padding-top: 2em;
+}
+.contactSect {
+    max-width: 15%;
+    padding-top: 1.5em;
+}
+.work {
+    padding-top: 2em;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+a, a:visited {
     color: black;
+    text-decoration: none;
 }
-a:hover{
+a:hover {
     color: #1c6d6b;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    padding: 3em;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
