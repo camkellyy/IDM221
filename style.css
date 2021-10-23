@@ -3,6 +3,7 @@ nav {
     text-align: end;
     overflow: hidden;
     background-color: white;
+    background: rgba(255, 255, 255, 0.9);
 }
 .contact:hover{
     color: #ffffff;
@@ -47,10 +48,6 @@ main, section {
 main {
     background: linear-gradient(45deg, #F9F9F9 50%, #1c6d6b 50%);
     padding-bottom: 6em;
-}
-.firstName {
-    color:#1c6d6b;
-    font-weight: bold;
 }
 .lastName {
     font-family: 'Carrois Gothic SC', sans-serif;
@@ -124,6 +121,10 @@ h1 {
     box-shadow: 5px 5px #1c6d6b;
     background-color: white;
 }
+ul {
+    list-style: none;
+    padding-left: 0;
+}
 div, .contactList {
     text-align: center;
 }
@@ -138,16 +139,16 @@ div, .contactList {
     background: linear-gradient(180deg, #9EBFAF 50%, white 50%);
     padding-top: 2em;
 }
+.work {
+    padding-top: 2em;
+}
 .contactSect {
     max-width: 15%;
     padding-top: 1.5em;
 }
-.work {
-    padding-top: 2em;
-}
-ul {
-    list-style: none;
-    padding-left: 0;
+.firstName {
+    color:#1c6d6b;
+    font-weight: bold;
 }
 a, a:visited {
     color: black;
