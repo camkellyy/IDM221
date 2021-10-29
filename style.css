@@ -1,169 +1,181 @@
-nav {
-    padding: 40px;
-    text-align: end;
-    overflow: hidden;
-    background-color: white;
-    background: rgba(255, 255, 255, 0.9);
+body {
+	background-color: #0C0C0C;
 }
-.contact:hover{
-    color: #ffffff;
-    background-color: #1c6d6b;
+nav {
+	background: #0C0C0C;
+	background-color: rgba(12, 12, 12, .80);
+}
+.logo {
+	padding: 1rem 2rem 1rem 5rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #6172D9;
+	display: inline-block;
 }
 #contactButton {
-    font-size: 1.2em;
-    margin-left: 13.5em;
-    padding: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+	margin-left: 20rem;
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
 }
-.nav, #contactNav {
-    padding-left: 30px;
-    padding-right: 30px;
+.contact:hover{
+    color: white;
+    background-color: #FF9D44;
 }
 .contact {
-    border-radius: 5%;
+    border-radius: 10%;
     border-style: solid;
-    border-color: #1c6d6b;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-color: #FF9D44;
+	border-width: .1rem;
+	padding: 1rem 1.5rem 1rem 1.5rem !important;
+	transition: 0.3s;
 }
 .resumeButton {
-    font-size: 1.2em;
-    margin-left: 1em;
-    padding: 30px;
-    border-radius: 5%;
+    border-radius: 10%;
     border-style: solid;
-    border-color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-color: white;
+	border-width: .1rem;
+	padding: 1rem 1.75rem 1rem 1.75rem !important;
+	margin-left: 1.5rem;
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.3s;
 }
 .resumeButton:hover {
-    color: #ffffff !important;
-    background-color:#000000;
+    color: #0C0C0C !important;
+    background-color:white;
 }
-main, section {
-    padding-top: 20px;
-    padding-bottom: 50px;
+.nav {
+	font-weight: bold;
+	transition: 0.3s;
 }
-main {
-    background: linear-gradient(45deg, #F9F9F9 50%, #1c6d6b 50%);
-    padding-bottom: 6em;
+.nav:hover {
+	color: #4BCFAC;
 }
-.lastName {
-    font-family: 'Carrois Gothic SC', sans-serif;
-    color: #9EBFAF;
-    font-weight: bolder;
+#skillsNav {
+	padding-left: 40rem;
+}
+.nav, #contactNav {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-decoration: none;
+	padding: 2rem;
 }
 .intro {
-    font-size: 4em;
-    padding-left: 4em;
+	font-size: 5.5rem;
+	color: white;
+	font-family: Staatliches;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 2rem;
 }
-body {
-    font-family: Helvetica, sans-serif;
+.about {
+	font-size: 1rem;
+	font-weight: 3rem;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	padding-top: 1rem;
+	line-height: 1.5rem;
+	margin-bottom: 3rem;
 }
-h1 {
-    font-family: 'Carrois Gothic SC', sans-serif;
-    font-style: italic;
-    font-size: 3em;
-}
-.left {
-    text-align: left;
-    padding-left: 5em;
-    font-size: 3.5rem;
-}
-.right {
-    text-align: right;
-    padding-right: 5em;
-    font-size: 3.5rem;
-}
-.aboutList {
-    margin-top: 2em;
-}
-.aboutPara {
-    margin-left: 11em;
-    margin-right: 11em;
-    padding-left: 1.5em;
-    padding-bottom: 1em;
-    line-height: 200%;
-    font-size: 1.25em;
-    border-left-style: solid;
-    border-left-color: #9EBFAF;
-    border-left-width: .25em;
-    border-bottom-style: solid;
-    border-bottom-color: #9EBFAF;
-    border-bottom-width: .25em;
-}
-.major, .minor {
-    font-family: 'Carrois Gothic SC', sans-serif;
-    color: #1c6d6b;
-    font-weight: bolder;
-}
-.skills {
-    border-top-width: 1.5em;
-}
-.skillsList {
-    padding-top: 2em;
-    background-color: #F9F9F9;
-    padding-bottom: 2rem;
-}
-.skills, .contactSect {
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    padding-left: 4em;
-    padding-right: 4em;
-    padding-bottom: .5rem;
-    border-radius: 3%;
+.name {
     border-style: solid;
-    border-color: #9EBFAF;
-    box-shadow: 5px 5px #1c6d6b;
-    background-color: white;
+    border-color: #4BCFAC;
+	background-color: #4BCFAC;
+	padding: 0rem 1rem 0 1rem;
 }
-ul {
-    list-style: none;
-    padding-left: 0;
+.hello {
+	padding-left: 1rem;
 }
-div, .contactList {
-    text-align: center;
+main p {
+	margin-left: 20rem;
 }
-.contactSect {
-    margin-top: 1em;
+.recTitle, .cusTitle, .cohTitle, .conTitle {
+	font-size: 3rem;
+	font-family: Staatliches;
+	margin-bottom: 0;
+	margin-top: 7rem;
+	text-shadow: .08rem .08rem white;
 }
-.contactSect p {
-    padding-top: 1em;
-    padding-bottom: 1em;
+.recTitle {
+	color: #6172D9;
 }
-.contactList {
-    background: linear-gradient(180deg, #9EBFAF 50%, white 50%);
-    padding-top: 2em;
+.cusTitle {
+	color: #FF9D44;
 }
-.work {
-    padding-top: 2em;
+.cohTitle {
+	color: #4BCFAC;
 }
-.contactSect {
-    max-width: 15%;
-    padding-top: 1.5em;
+.conTitle {
+	color: #FF9D44;
+	text-align: right;
+	margin-right: 16.5rem;
+	margin-top: 10rem;
 }
-.firstName {
-    color:#1c6d6b;
-    font-weight: bold;
+.description, .email, .phone, .linked {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.9rem;
+	margin-top: 0;
+	font-size: 1.25rem;
 }
-a, a:visited {
-    color: black;
-    text-decoration: none;
+.recent, .customer, .cohesion, .boxes{
+	display: inline-flex;
 }
-a:hover {
-    color: #1c6d6b;
-    text-decoration: none;
+.recent, .customer, .cohesion{
+	margin-top: 10rem;
 }
-footer{
-    text-align: center;
-    padding: 3em;
+.recWords, .cohWords {
+	margin-left: 15rem;
+	margin-right: 7rem;
+}
+.cusImage {
+	margin-left: 9rem;
+	margin-right: 7rem;
+}
+.email, .phone, .linked {
+	border-radius: 3%;
+	border-style: solid;
+	border-color: #6172D9;
+	border-width: 1rem .125rem .125rem .125rem;
+	text-align: center;
+	padding: 2rem 2rem 2rem 2rem;
+	margin-left: 2rem;
+	font-weight: lighter;
+	max-height: 12rem;
+	max-width: 18rem;
+}
+.email {
+	margin-left: 11rem;
+	margin-top: 9rem;
+}
+.phone {
+	margin-top: 5rem;
+}
+.linked{
+	margin-top: 2rem;
+}
+.linkedIn {
+	color: white;
+	transition: 0.3s;
+}
+#contact {
+	margin-bottom: 5rem;
+}
+.linkedIn:hover {
+	color: #FF9D44;
 }
 .sticky {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+}
+footer{
+    text-align: center;
+	padding-bottom: 3rem;
+}
+.arrow {
+	text-shadow: .08rem .08rem white;
 }
