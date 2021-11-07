@@ -1,7 +1,11 @@
+html {
+    box-sizing: border-box;
+}
 body {
 	background-color: #0C0C0C;
 }
 nav {
+	padding-top: .75rem;
 	background: #0C0C0C;
 	background-color: rgba(12, 12, 12, .80);
 }
@@ -12,6 +16,13 @@ nav {
 	font-size: .75rem;
 	color: #6172D9;
 	display: inline-block;
+	text-decoration: none;
+}
+#contactNav {
+	margin-left: 1.5rem !important;
+}
+#skillsNav {
+	margin-left: 1.5rem;
 }
 .resumeButton {
     border-radius: 10%;
@@ -53,7 +64,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 .nav {
-    padding-left: .75rem;
+    padding-left: 1.5rem;
 }
 .nav:hover {
 	color: #4BCFAC;
@@ -65,6 +76,35 @@ nav {
 	color: white;
 	padding-top: .5rem;
 	line-height: 1rem !important;
+    margin: 0 0 1.5rem 1rem;
+}
+.desktop img, .tablet img {
+	padding-top: 3rem;
+	padding-bottom: 2.5rem;
+}
+.desktop a, .tablet a {
+	margin-left: 7.75rem;
+	border-radius: 10%;
+    border-style: solid;
+    border-color: #6172D9;
+	border-width: .1rem;
+	padding: .75rem!important;
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	transition: 0.3s;
+    font-size: .75rem;
+}
+.desktop a:hover, .tablet a:hover {
+	background-color: #6172D9;
+}
+.aboutDesk, .aboutTab {
+	font-size: .7rem;
+	font-weight: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	padding-top: .5rem;
+	line-height: 1.15rem !important;
     margin: 0 0 1.5rem 1rem;
 }
 .intro {
@@ -86,49 +126,31 @@ nav {
 }
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
+    margin: 2rem auto 0;
 }
-.cohDes, .recDes, .cusDes {
+.cohDes, .recDes, .cusDes, .contDes, .exDes {
     color: white;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.25rem;
 	margin-top: .5rem;
 	font-size: .85rem;
+	margin-left: 3rem;
 }
-.cusDes {
-    margin-left: 3rem;
-}
-.cohDes {
-    margin-left: 9rem;
-}
-.recDes {
-    margin-left: 11rem;
-}
-.cusTitle {
-    margin-left: 12rem;
-}
-.cohTitle {
-    margin-left: 3rem;
-}
-.recTitle {
-    margin-left: 2rem;
-}
-.recTitle, .cusTitle, .cohTitle, .conTitle {
+.recTitle, .cusTitle, .cohTitle, .contTitle, .exTitle {
 	font-size: 2rem;
+	margin-left: 3rem;
 	font-family: Staatliches;
 	margin-bottom: 0;
 	margin-top: 5rem;
 	text-shadow: .08rem .08rem white;
 }
-.recTitle {
-	color: #6172D9;
-}
-.cusTitle, .conTitle  {
+.recTitle, .exTitle {
 	color: #FF9D44;
 }
-.cohTitle {
+.cusTitle, .conTitle  {
+	color: #6172D9;
+}
+.cohTitle, .contTitle {
 	color: #4BCFAC;
 }
 #contact {
