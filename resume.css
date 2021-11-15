@@ -1,0 +1,32 @@
+li {
+    line-height: 1rem;
+    padding-top: .5rem;
+    padding-right:1rem;
+}
+.information {
+	padding: 2rem 0 0 1rem;
+    color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .68rem;
+	line-height: .35rem;
+}
+.jobTitle {
+    font-size: .8rem;
+    margin-top: 2rem;
+}
+.title {
+    font-size: 1.75rem;
+	font-family: Staatliches;
+	margin-bottom: 1.5rem;
+	margin-top: 2rem;
+    color: white;
+}
+.orange{
+    text-shadow: .08rem .08rem #FF9D44;
+}
+.purple{
+    text-shadow: .08rem .08rem #6172D9; 
+ }
+ .green{
+    text-shadow: .08rem .08rem #4BCFAC; 
+ }
