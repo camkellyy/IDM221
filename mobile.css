@@ -4,8 +4,13 @@ html {
 body {
 	background-color: #0C0C0C;
 }
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
 nav {
-	padding-top: .75rem;
+	padding: .75rem 0;
 	background: #0C0C0C;
 	background-color: rgba(12, 12, 12, .80);
 }
@@ -78,8 +83,12 @@ nav {
 	line-height: 1rem !important;
     margin: 0 0 1.5rem 1rem;
 }
-.desktop img, .tablet img {
+.tablet img {
 	padding-top: 3rem;
+	padding-bottom: 2.5rem;
+}
+.desktop img {
+	padding-top: .25rem;
 	padding-bottom: 2.5rem;
 }
 .desktop a, .tablet a {
@@ -98,14 +107,18 @@ nav {
 .desktop a:hover, .tablet a:hover {
 	background-color: #6172D9;
 }
-.aboutDesk, .aboutTab {
-	font-size: .7rem;
-	font-weight: 1rem;
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	padding-top: .5rem;
-	line-height: 1.15rem !important;
-    margin: 0 0 1.5rem 1rem;
+.title{
+	font-size: 2rem;
+	font-family: Staatliches;
+	margin-top: 4rem;
+	margin-left: 1rem;
+    text-shadow: .08rem .08rem white;
+}
+.orange {
+	color: #FF9D44;
+}
+.purple {
+	color: #6172D9;
 }
 .intro {
 	font-size: 3rem;
@@ -128,38 +141,14 @@ img {
     display: block;
     margin: 2rem auto 0;
 }
-.cohDes, .recDes, .cusDes, .contDes, .exDes {
-    color: white;
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.25rem;
-	margin-top: .5rem;
-	font-size: .85rem;
-	margin-left: 3rem;
-}
-.recTitle, .cusTitle, .cohTitle, .contTitle, .exTitle {
-	font-size: 2rem;
-	margin-left: 3rem;
-	font-family: Staatliches;
-	margin-bottom: 0;
-	margin-top: 5rem;
-	text-shadow: .08rem .08rem white;
-}
-.recTitle, .exTitle {
-	color: #FF9D44;
-}
-.cusTitle, .conTitle  {
-	color: #6172D9;
-}
-.cohTitle, .contTitle {
-	color: #4BCFAC;
-}
 #contact {
     display: inline-flex;
 }
-.sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+.boxes{
+	margin-top: 3rem;
+}
+.email {
+	border: 1px solid #6172D9;
 }
 footer{
     text-align: center;
