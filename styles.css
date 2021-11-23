@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+}
+body {
+	background-color: #0C0C0C;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 30;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.sticky li {
+	display: inline-block;
+	list-style: none;
+}
+ul {
+	padding: 0;
+	text-align: center;
+}
+nav li a, button {
+	color: white;
+	font-size: .75rem;
+}
+.nav-l:hover {
+	color: #4BCFAC;
+}
+.nav-link {
+	padding-left: 1.5rem;
+}
+.logo {
+	color: #6172D9;
+	font-weight: bold;
+	padding-right: 1.25rem;
+}
+nav {
+	background: #0C0C0C;
+	background-color: rgba(12, 12, 12, .90);
+	margin-bottom: 2rem;
+	padding: .5rem 0;
+}
+main .contact-button {
+	margin-left: 1.125rem;
+}
+.contact-button:hover{
+    background-color: #FF9D44;
+}
+.contact-button {
+	border: 1.75px solid #FF9D44;
+	padding: .5rem;
+}
+.white-button:hover {
+    color: #0C0C0C !important;
+    background-color:white;
+}
+.white-button {
+	border: 1.75px solid white;
+	margin-left: .5rem;
+}
+button {
+	background-color: transparent;
+    border-radius: 10%;
+	transition: 0.3s;
+}
+.main-icon {
+	font-size: 5rem;
+	color: #6172D9;
+	padding-left: 1.5rem;
+}
+main p {
+	font-size: .68rem;
+	line-height: 1rem;
+    margin: 0 0 1.5rem 1rem;
+	padding-top: .5rem;
+}
+main h1 {
+	font: 3rem Staatliches;
+	font-weight: lighter;
+    line-height: 0;
+	margin: 2rem 0 2rem 1rem;
+	padding-top: .5rem;
+}
+h1 span {
+	background-color: #4BCFAC;
+	border: 0px solid #4BCFAC;
+	padding: 0rem .25rem;
+}
+footer a {
+	text-shadow: .08rem .08rem white;
+}
+.footer-icon {
+	font-size: 5rem;
+	color: #FF9D44;
+}
+footer{
+	padding-bottom: .75rem;
+	text-align: center;
+}
