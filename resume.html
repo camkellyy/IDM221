@@ -7,48 +7,55 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="resume.css">
     <title>Cam Kelly</title>
 </head>
 <body id="main">
     <nav class="sticky">
-        <span>
-            <a class="logo" href="mobile.html">CAMKELLY</a>
-            <a id="skillsNav" class="nav" href="#skills">SKILLS</a>
-            <a class="nav" href="#work">WORK</a>
-            <a id="contactNav" class="contact" href="#contact">CONTACT</a>
-        </span>
+        <ul>
+            <li><a class="logo" href="mobile.html">CAMKELLY</a></li>
+            <li><a class="nav-link" href="resume.html">RESUME</a></li>
+            <li><a class="nav-link" href="mobile.html#work">WORK</a></li>
+            <li><a class="nav-link" href="mobile.html#contact"><button class="contact-button">CONTACT</button></a></li>
+        </ul>
     </nav>
 
 
     <main>
-        <p class="intro"><span class="hello">Here's my</span><br /><span class="name">Resume</span><i class="material-icons" style="font-size:5rem; color: #6172D9; padding-left: 1rem;">code</i></p>
+        <h1>Here's My<br /><span>Resume</span><i class="material-icons main-icon">description</i></h1>
+        <p>CURRENTLY A PRE-JUNIOR AT DREXEL UNIVERSITY<br />GOING INTO MY SECOND CO-OP.</p>
+        <a href="mobile.html#contact"><button class="contact-button">CONTACT</button></a>
+        <a href="mobile.html#work"><button class="work-button white-button">WORK</button></a>
     </main>
 
-    <section id="education" class="information">
-        <p class="title orange">EDUCATION</p>
-        <p>Drexel University</p>
-        <p><i>Bachelor of Science User Experience & Interaction Design</i></p>
-        <p><i>Minors Conputer Science & Human Computer Interaction</i></p>
-        <p>Anticipated Graduation: 2025</p>
-        <p><b>Cumulative GPA: 3.81</b></p>
+    <section class="information">
+        <h1 class="purple">EDUCATION</h1>
+        <ul class="no-bullet-list">
+            <li>Drexel University</li>
+            <li><i>Bachelor of Science User Experience & Interaction Design</i></li>
+            <li><i>Minors Conputer Science & Human Computer Interaction</i></li>
+            <li>Anticipated Graduation: 2025</li>
+            <li><b>Cumulative GPA: 3.81</b></li>
+        </ul>
     </section>
 
-    <section id="coursework" class="information">
-        <p class="title orange">RELEVENT COURSEWORK</p>
-        <p>Computing & Informatics Design I, II, III</p>
-        <p>Web Design I</p>
-        <p>Introduction to Human Computer Interaction</p>
-        <p>Advanced Programming Tools & Techniques</p>
-        <p>User Interface Design I</p>
-        <p>Design for Medua I, II</p>
-        <p>Strategic Manaegment for Entertainment & Arts</p>
-        <p>Web & Mobile App Development</p>
+    <section class="information">
+        <h1 class="purple">RELEVENT COURSEWORK</h1>
+        <ul class="no-bullet-list">
+            <li>Computing & Informatics Design I, II, III</li>
+            <li>Web Design I</li>
+            <li>Introduction to Human Computer Interaction</li>
+            <li>Advanced Programming Tools & Techniques</li>
+            <li>User Interface Design I</li>
+            <li>Design for Medua I, II</li>
+            <li>Strategic Manaegment for Entertainment & Arts</li>
+            <li>Web & Mobile App Development</li>
+        </ul>
     </section>
 
-    <section id="projects" class="information">
-        <p class="title purple">PROJECT EXPERIENCE</p>
+    <section class="information">
+        <h1 class="orange">PROJECT EXPERIENCE</h1>
         <p class="jobTitle">Musion Website Developer<i>Website Developer</i></p>
         <ul>
             <li>Conceptualized and developed website to match users locally and based on music taste</li>   
@@ -59,8 +66,8 @@
         </ul>
     </section>
 
-    <section id="jobs" class="information">
-        <p class="title purple">JOB EXPERIENCE</p>
+    <section class="information">
+        <h1 class="orange">JOB EXPERIENCE</h1>
         <p class="jobTitle">ASRC Federal Mission Solutions, <i>Software Developer</i></p>
         <ul>
             <li>Contributed to the development and integration of Navy AEGIS Combat System</li>   
@@ -83,24 +90,28 @@
         </ul>
     </section>
 
-    <section id="honors" class="information">
-        <p class="title green">HONORS & AWARDS</p>
-        <p>AJ Drexel Scholarship, <i>Drexel University</i></p>
-        <p>CCI Women in Computing Scholarship, <i>Drexel University</i></p>
-        <p>Delaware Affiliate Award - Aspirations in Computing, <i>NCWIT</i></p>
-        <p>Delaware First Place, CyberPatriot Team, <i>Padua Academy</i></p>
+    <section class="information">
+        <h1 class="green">HONORS & AWARDS</h1>
+        <ul class="no-bullet-list">
+            <li>AJ Drexel Scholarship, <i>Drexel University</i></li>
+            <li>CCI Women in Computing Scholarship, <i>Drexel University</i></li>
+            <li>Delaware Affiliate Award - Aspirations in Computing, <i>NCWIT</i></li>
+            <li>Delaware First Place, CyberPatriot Team, <i>Padua Academy</i></li>
+        </ul>
     </section>
 
-    <section id="activities" class="information">
-        <p class="title green">ACTIVITIES</p>
-        <p>Technology/Philanthropy, <i>Phi Sigma Sigma</i></p>
-        <p>Coding and Graphic Design Club, <i>Padua Academy</i></p>
-        <p>Girls Go CyberStart Team, <i>Padua Academy</i></p>
+    <section class="information">
+        <h1 class="green">ACTIVITIES</h1>
+        <ul class="no-bullet-list">
+            <li>Technology/Philanthropy, <i>Phi Sigma Sigma</i></li>
+            <li>Coding and Graphic Design Club, <i>Padua Academy</i></li>
+            <li>Girls Go CyberStart Team, <i>Padua Academy</i></li>
+        </ul>
     </section>
 
 
     <footer>
-        <a class="arrow" href="#main"><i class="fa fa-angle-double-up" style="font-size:3rem;color: #FF9D44;"></i></a>
+        <a href="#main"><i class="material-icons footer-icon">expand_less</i></a>
     </footer>
 </body>
 </html>

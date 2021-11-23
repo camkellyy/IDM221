@@ -7,53 +7,45 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="work.css">
     <title>Desktop Designs</title>
 </head>
 <body id="main">
     <nav class="sticky">
-        <span>
-            <a class="logo" href="mobile.html">CAMKELLY</a>
-            <a id="skillsNav" class="nav" href="#skills">SKILLS</a>
-            <a class="nav" href="#work">WORK</a>
-            <a id="contactNav" class="contact" href="#contact">CONTACT</a>
-        </span>
+        <ul>
+            <li><a class="logo" href="mobile.html">CAMKELLY</a></li>
+            <li><a class="nav-link" href="resume.html">RESUME</a></li>
+            <li><a class="nav-link" href="mobile.html#work">WORK</a></li>
+            <li><a class="nav-link" href="mobile.html#contact"><button class="contact-button">CONTACT</button></a></li>
+        </ul>
     </nav>
 
 
     <main>
-        <p class="intro"><span class="hello">Tablet</span><br /><span class="name">Design</span><i class="material-icons" style="font-size:5rem; color: #6172D9; padding-left: 3rem;">tablet_mac</i></p>
-        <p class="aboutTab">Musion is a concept that I came up with as a way to bring people together through music. User's take a short survery about different artists, musics, and albums that they like, and they are given three music tastes with various percentages that line up with their answers. They can then see other people in their local area, by zip code, who have overlapping music tastes with them. In addition , there are concert dates listed that line up with the user's location and music taste. This website is aimed at college students and recent graduates, so I wanted to have a modern yet minimalistic dseign approach that would appeal to that crowd.</p>
+        <h1>Tablet<br /><span>Design</span><i class="material-icons main-icon">stay_primary_landscape</i></h1>
+        <p>TABLET WEBSITE IDEATION PROJECT CREATED IN<br />CI-103: COMPUTING & INFORMATICS DESIGN III</p>
+        <a href="mobile.html#contact"><button class="contact-button">CONTACT</button></a>
+        <a href="desktop.html"><button class="desktop-button white-button">DESKTOP</button></a>
+        <p class="description">Musion is a concept that I came up with as a way to bring people together through music. User's take a short survery about different artists, musics, and albums that they like, and they are given three music tastes with various percentages that line up with their answers. They can then see other people in their local area, by zip code, who have overlapping music tastes with them. In addition , there are concert dates listed that line up with the user's location and music taste. This website is aimed at college students and recent graduates, so I wanted to have a modern yet minimalistic dseign approach that would appeal to that crowd.</p>
     </main>
 
 
-    <section>
-        <div class="experience">
-            <span class="exWords">
-                <p class="exTitle">EXPERIENCE</p>
-                <p class="exDes">Focused on user accessability <br />in allowing multiple platform<br />account creations</p>
-            </span>
-            <span class="exImage">
-                <img src="login.png" alt="login">
-            </span>
+    <section class="designs">
+        <div class="orange">
+            <img src="login.png" alt="login">
+            <h1>LOGIN PAGE</h1>
         </div>
 
-
-        <div class="musion">
-            <span class="musWords">
-                <p class="contTitle">CONTRAST</p>
-                <p class="contDes">Created a color palette to<br />stimulate a visual contrast<br />alongside a minimalistic<br /> approach</p>
-            </span>
-            <span class="musImage">
-                <img src="musion.png" alt="musion">
-            </span>
+        <div class="green">
+            <img src="musion.png" alt="musion">
+            <h1>HOME PAGE</h1>
         </div>
     </section>
 
 
     <footer>
-        <a class="arrow" href="#main"><i class="fa fa-angle-double-up" style="font-size:3rem;color: #FF9D44;"></i></a>
+        <a href="#main"><i class="material-icons footer-icon">expand_less</i></a>
     </footer>
 </body>
 </html>
