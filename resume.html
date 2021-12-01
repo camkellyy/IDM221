@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--ICONS-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="resume.css">
+
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/resume.css">
     <title>Cam Kelly</title>
 </head>
+
+
+
 <body id="main">
+    <!--NAV-->
     <nav class="sticky">
         <ul>
             <li><a class="logo" href="mobile.html">CAMKELLY</a></li>
-            <li><a class="nav-link" href="resume.html">RESUME</a></li>
-            <li><a class="nav-link" href="mobile.html#work">WORK</a></li>
-            <li><a class="nav-link" href="mobile.html#contact"><button class="contact-button">CONTACT</button></a></li>
+            <li><a href="#nav"><i class="material-icons menu-icon">menu</i></a></li>
         </ul>
     </nav>
 
 
+
+    <!--MAIN-->
     <main>
         <h1>Here's My<br /><span>Resume</span><i class="material-icons main-icon">description</i></h1>
         <p>CURRENTLY A PRE-JUNIOR AT DREXEL UNIVERSITY<br />GOING INTO MY SECOND CO-OP.</p>
+
+        <!--BUTTONS-->
         <a href="mobile.html#contact"><button class="contact-button">CONTACT</button></a>
         <a href="mobile.html#work"><button class="work-button white-button">WORK</button></a>
     </main>
 
+
+
+    <!--EDUCATION-->
     <section class="information">
         <h1 class="purple">EDUCATION</h1>
         <ul class="no-bullet-list">
@@ -40,6 +53,9 @@
         </ul>
     </section>
 
+
+
+    <!--RELEVENT COURSEWORK-->
     <section class="information">
         <h1 class="purple">RELEVENT COURSEWORK</h1>
         <ul class="no-bullet-list">
@@ -54,6 +70,9 @@
         </ul>
     </section>
 
+
+
+    <!--PROJECT EXPERIENCE-->
     <section class="information">
         <h1 class="orange">PROJECT EXPERIENCE</h1>
         <p class="jobTitle">Musion Website Developer<i>Website Developer</i></p>
@@ -66,8 +85,13 @@
         </ul>
     </section>
 
+
+
+    <!--JOB EXPERIENCE-->
     <section class="information">
         <h1 class="orange">JOB EXPERIENCE</h1>
+
+        <!--JOB 1-->
         <p class="jobTitle">ASRC Federal Mission Solutions, <i>Software Developer</i></p>
         <ul>
             <li>Contributed to the development and integration of Navy AEGIS Combat System</li>   
@@ -75,6 +99,8 @@
             <li>Utilized Scrum and Agile methodologies to maximize team productivity and organization</li>
         </ul>
 
+
+        <!--JOB 2-->
         <p class="jobTitle">Quiet Storm Surf Shop, <i>Sales Associate / Manager</i></p>
         <ul>
             <li>Assisted in the creation of website layout, specifically UI/UX design</li>   
@@ -82,6 +108,8 @@
             <li>Oversaw item purchasing, pricing, and merchandising for changing customer population</li>
         </ul>
 
+
+        <!--JOB 3-->
         <p class="jobTitle">Padua Academy School Store, <i> Co-Manager</i></p>
         <ul>
             <li>Assisted in the selection and overall design of various logos and prints for incoming clothing</li>   
@@ -90,16 +118,22 @@
         </ul>
     </section>
 
+
+
+    <!--HONORS & AWARDS-->
     <section class="information">
         <h1 class="green">HONORS & AWARDS</h1>
         <ul class="no-bullet-list">
             <li>AJ Drexel Scholarship, <i>Drexel University</i></li>
             <li>CCI Women in Computing Scholarship, <i>Drexel University</i></li>
-            <li>Delaware Affiliate Award - Aspirations in Computing, <i>NCWIT</i></li>
-            <li>Delaware First Place, CyberPatriot Team, <i>Padua Academy</i></li>
+            <li>DE Aspirations in Computing Award <i>NCWIT</i></li>
+            <li>DE First Place, CyberPatriot Team, <i>Padua Academy</i></li>
         </ul>
     </section>
 
+
+
+    <!--ACTIVITIES-->
     <section class="information">
         <h1 class="green">ACTIVITIES</h1>
         <ul class="no-bullet-list">
@@ -110,8 +144,21 @@
     </section>
 
 
+
+    <!--FOOTER-->
     <footer>
         <a href="#main"><i class="material-icons footer-icon">expand_less</i></a>
+
+
+        <!--HIDDEN NAV MENU-->
+        <div id="nav" class="navigation">
+            <ul>
+                <li><a class="link" href="mobile.html"><button class="nav-button home-button-nav">HOME</button></a></li>
+                <li><a class="link" href="mobile.html#contact"><button class="nav-button contact-button-nav">CONTACT</button></a></li>
+                <li><a class="link" href="resume.html"><button class="nav-button resume-button-nav">RESUME</button></a></li>
+                <li><a class="link" href="mobile.html#work"><button class="nav-button work-button-nav">WORK</button></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

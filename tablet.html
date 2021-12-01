@@ -4,48 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--ICONS-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="work.css">
+
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/work.css">
     <title>Desktop Designs</title>
 </head>
+
+
+
 <body id="main">
+    <!--NAV-->
     <nav class="sticky">
         <ul>
             <li><a class="logo" href="mobile.html">CAMKELLY</a></li>
-            <li><a class="nav-link" href="resume.html">RESUME</a></li>
-            <li><a class="nav-link" href="mobile.html#work">WORK</a></li>
-            <li><a class="nav-link" href="mobile.html#contact"><button class="contact-button">CONTACT</button></a></li>
+            <li><a href="#nav"><i class="material-icons menu-icon">menu</i></a></li>
         </ul>
     </nav>
 
 
+
+    <!--MAIN-->
     <main>
         <h1>Tablet<br /><span>Design</span><i class="material-icons main-icon">stay_primary_landscape</i></h1>
         <p>TABLET WEBSITE IDEATION PROJECT CREATED IN<br />CI-103: COMPUTING & INFORMATICS DESIGN III</p>
+
+        <!--BUTTONS-->
         <a href="mobile.html#contact"><button class="contact-button">CONTACT</button></a>
         <a href="desktop.html"><button class="desktop-button white-button">DESKTOP</button></a>
+
         <p class="description">Musion is a concept that I came up with as a way to bring people together through music. User's take a short survery about different artists, musics, and albums that they like, and they are given three music tastes with various percentages that line up with their answers. They can then see other people in their local area, by zip code, who have overlapping music tastes with them. In addition , there are concert dates listed that line up with the user's location and music taste. This website is aimed at college students and recent graduates, so I wanted to have a modern yet minimalistic dseign approach that would appeal to that crowd.</p>
     </main>
 
 
+
+    <!--DESIGNS-->
     <section class="designs">
         <div class="orange">
-            <img src="login.png" alt="login">
+            <img src="images/login.png" alt="login">
             <h1>LOGIN PAGE</h1>
         </div>
 
         <div class="green">
-            <img src="musion.png" alt="musion">
+            <img src="images/musion.png" alt="musion">
             <h1>HOME PAGE</h1>
         </div>
     </section>
 
 
+
+    <!--FOOTER-->
     <footer>
         <a href="#main"><i class="material-icons footer-icon">expand_less</i></a>
+
+
+        <!--HIDDEN NAV MENU-->
+        <div id="nav" class="navigation">
+            <ul>
+                <li><a class="link" href="mobile.html"><button class="nav-button home-button-nav">HOME</button></a></li>
+                <li><a class="link" href="mobile.html#contact"><button class="nav-button contact-button-nav">CONTACT</button></a></li>
+                <li><a class="link" href="resume.html"><button class="nav-button resume-button-nav">RESUME</button></a></li>
+                <li><a class="link" href="desktop.html"><button class="nav-button desktop-button-nav">DESKTOP</button></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

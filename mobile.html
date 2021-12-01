@@ -4,60 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--ICONS-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="mobile.css">
+    
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Cam Kelly</title>
 </head>
+
+
+
 <body id="main">
+    <!--NAV-->
     <nav class="sticky">
         <ul>
             <li><a class="logo" href="mobile.html">CAMKELLY</a></li>
-            <li><a class="nav-link" href="resume.html">RESUME</a></li>
-            <li><a class="nav-link" href="#work">WORK</a></li>
-            <li><a class="nav-link" href="#contact"><button class="contact-button">CONTACT</button></a></li>
+            <li><a href="#nav"><i class="material-icons menu-icon">menu</i></a></li>
         </ul>
     </nav>
 
 
+
+    <!--MAIN-->
     <main>
         <h1>Hi, I'm<br /><span>Cam Kelly</span><i class="material-icons main-icon">code</i></h1>
         <p>AN ASPIRING UI UX DESIGNER & FRONT-END DEVELOPER<br />WITH A STRONG CODING BACKGROUND.</p>
+
+        <!--BUTTONS-->
         <a href="#contact"><button class="contact-button">CONTACT</button></a>
         <a id="work" href="resume.html"><button class="resume-button white-button">RESUME</button></a>
     </main>
 
 
+
+    <!--RECENT WORK-->
     <div class="recent-work">
+
+        <!--DESKTOP DESIGN-->
         <div class="recent-desktop">
-            <img class="recent-images" src="desktop.png" alt="desktop">
+            <img class="recent-images" src="images/desktop.png" alt="desktop">
             <h1>DESKTOP</h1>
             <a href="desktop.html"><button class="work-buttons desktop-button">LEARN MORE</button></a>
         </div>
 
-
+        <!--TABLET DESIGN-->
         <div class="recent-tablet">
-            <img class="recent-images" src="tablet.png" alt="tablet">
+            <img class="recent-images" src="images/tablet.png" alt="tablet">
             <h1>TABLET</h1>
             <a id="contact" href="tablet.html"><button class="work-buttons tablet-button">LEARN MORE</button></a>
         </div>
     </div>
 
 
+
+    <!--CONTACT-->
     <section>
         <ul class="contact-info">
+
+            <!--PHONE-->
             <li>
                 <i class="material-icons">settings_phone</i>
                 <h4>PHONE</h4>
                 <p><b>(302)-312-6233</b></p>
             </li>
+
+            <!--EMAIL-->
             <li>
                 <i class="material-icons">email</i>
-                <h4>EMIAL</h4>
+                <h4>EMAIL</h4>
                 <p><b>cjk327@drexel.edu</b></p>
             </li>
+
+            <!--LINKED IN-->
             <li class="mishapen-circle">
                 <i class="fa fa-linkedin-square"></i>
                 <h4>LINKEDIN</h4>
@@ -66,9 +88,21 @@
         </ul>
     </section>
 
+    
 
+    <!--FOOTER-->
     <footer>
         <a href="#main"><i class="material-icons footer-icon">expand_less</i></a>
+
+        <!--HIDDEN NAV MENU-->
+        <div id="nav" class="navigation">
+            <ul>
+                <li><a class="link" href="mobile.html"><button class="nav-button home-button-nav">HOME</button></a></li>
+                <li><a class="link" href="#contact"><button class="nav-button contact-button-nav">CONTACT</button></a></li>
+                <li><a class="link" href="resume.html"><button class="nav-button resume-button-nav">RESUME</button></a></li>
+                <li><a class="link" href="#work"><button class="nav-button work-button-nav">WORK</button></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
