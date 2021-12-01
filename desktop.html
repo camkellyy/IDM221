@@ -4,55 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--ICONS-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="work.css">
+    
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/work.css">
     <title>Desktop Designs</title>
 </head>
+
+
+
 <body id="main">
+    <!--NAV-->
     <nav class="sticky">
         <ul>
             <li><a class="logo" href="mobile.html">CAMKELLY</a></li>
-            <li><a class="nav-link" href="resume.html">RESUME</a></li>
-            <li><a class="nav-link" href="mobile.html#work">WORK</a></li>
-            <li><a class="nav-link" href="mobile.html#contact"><button class="contact-button">CONTACT</button></a></li>
+            <li><a href="#nav"><i class="material-icons menu-icon">menu</i></a></li>
         </ul>
     </nav>
 
 
+
+    <!--MAIN-->
     <main>
         <h1>Desktop<br /><span>Design</span><i class="material-icons main-icon">remove_from_queue</i></h1>
         <p>DESKTOP WEBSITE RE-DESIGN PROJECT CREATED IN<br />IDM-211: INTERFACE DESIGN I</p>
+
+        <!--BUTTONS-->
         <a href="mobile.html#contact"><button class="contact-button">CONTACT</button></a>
         <a href="tablet.html"><button class="tablet-button white-button">TABLET</button></a>
+
         <p class="description">None Such Farm & Market is a locally owned business with a tight knit community. They strive on forming realtionships with their customers and depend on their loyalty. I wanted to ensure that the small town farm feel wasn't lost in my re-design, so I focused on incorporating images that I felt encompased their original aesthetic. I did, however, also want to incorporate odern design elements in my design to give the site a professional feel to is as well. This can be seen through the modern design of image carosels as well as the consistent cohesion across the site. My re-design of the None Such Farm & Market website maintains their farm town image, but elevates thier professionalism.</p>
     </main>
 
 
+
+    <!--DESIGNS-->
     <section class="designs">
         <div class="orange">
-            <img src="recent.png" alt="recent">
+            <img src="images/recent.png" alt="recent">
             <h1>PRODUCTS PAGE</h1>
         </div>
 
 
         <div class="purple">
-            <img src="customer.png" alt="customer">
+            <img src="images/customer.png" alt="customer">
             <h1>CAROUSEL</h1>
         </div>
 
 
         <div class="green">
-            <img src="cohesion.png" alt="cohesion">
+            <img src="images/cohesion.png" alt="cohesion">
             <h1>CONTACT PAGE</h1>
         </div>
     </section>
 
 
+
+    <!--FOOTER-->
     <footer>
         <a href="#main"><i class="material-icons footer-icon">expand_less</i></a>
+
+        <!--HIDDEN NAV MENU-->
+        <div id="nav" class="navigation">
+            <ul>
+                <li><a class="link" href="mobile.html"><button class="nav-button home-button-nav">HOME</button></a></li>
+                <li><a class="link" href="mobile.html#contact"><button class="nav-button contact-button-nav">CONTACT</button></a></li>
+                <li><a class="link" href="resume.html"><button class="nav-button resume-button-nav">RESUME</button></a></li>
+                <li><a class="link" href="tablet.html"><button class="nav-button tablet-button-nav">TABLET</button></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
