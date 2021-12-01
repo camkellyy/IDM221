@@ -1,0 +1,101 @@
+/* BUTTONS */
+.resume-button {
+	padding: .75rem 1.2rem !important;
+}
+.desktop-button {
+	left: 35%;
+	top: 55%;
+}
+.tablet-button {
+	left: 35%;
+	top: 54%;
+}
+.work-buttons:hover {
+	background-color: white;
+}
+.work-buttons {
+	background: white;
+	background-color: rgba(255, 255, 255, .50);
+	border: none;
+	color: black;
+	display: flex;
+	font-size: .75rem;
+	margin: 0 auto;
+	padding: .9rem!important;
+	position: absolute;
+	z-index:20;
+}
+
+/* RECENT WORK */
+.recent-desktop h1 {
+	left: 33%;
+	top: 7%;
+}
+.recent-tablet h1 {
+	left: 37%;
+	top: 23%;
+}
+.recent-work h1 {
+	font: 2.5rem Staatliches;
+	position: absolute;
+	text-shadow: .08rem .08rem black;
+	z-index:20;
+}
+img .recent-images{
+	display: block;
+	left: 50%;
+	position: absolute;
+	top: 70%;
+	z-index:10;
+}
+.recent-desktop {
+	margin-top: 5rem;
+	position: relative;
+	text-align: center;
+}
+.recent-tablet {
+	margin-top: 5rem;
+	position: relative;
+	text-align: center;
+}
+.recent-work {
+	margin-top: 5rem;
+	position: relative;
+	text-align: center;
+}
+
+/* CONTACT */
+.mishapen-circle i {
+	padding: 2rem 2.1rem !important;
+}
+.contact-info i {
+	background-color: #bfc6ef;
+	border: 1px solid #bfc6ef;
+	border-radius: 50%;
+	color: #6172D9;
+	font-size: 3rem;
+	list-style: none;
+	margin-bottom: .5rem;
+	padding: 2rem;
+}
+.contact-info h4 {
+	color: #6172D9;
+	font-size: 1rem;
+	text-shadow: .02rem .02rem #a0aae8;
+}
+.contact-info a:hover {
+	color: #4BCFAC;
+}
+.contact-info li {
+	margin-top: 2rem;
+	padding: .5rem .85rem;
+}
+.contact-info, .contact-info a {
+	font-size: 1rem;
+	line-height: 1rem;
+	margin-top: 2rem;
+	text-align: center;
+}
+.contact-info {
+	margin-top: 5rem;
+}

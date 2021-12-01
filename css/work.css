@@ -1,0 +1,43 @@
+/* GENERAL */
+img {
+	display: flex;
+	margin: 3rem auto 0;
+}
+.description {
+	font-size: .83rem;
+	font-weight: 1rem;
+	line-height: 1.27rem !important;
+	margin: 0 1rem 4rem 1rem;
+	padding-top: 2rem;
+}
+.designs h1 {
+	font: 1.75rem Staatliches;
+	text-align: center;
+	text-shadow: .05rem .05rem white;
+	margin: .5rem;
+}
+
+/* BUTTONS */
+.tablet-button {
+	padding: .75rem 1.5rem !important;
+}
+.desktop-button {
+	padding: .75rem 1.2em !important;
+}
+.desktop-button-nav {
+	padding: 1.5rem 2.07rem;
+}
+.tablet-button-nav {
+	padding: 1.5rem 2.55rem;
+}
+
+/* TITLES */
+.orange {
+	color: #FF9D44;
+}
+.purple  {
+	color: #6172D9;
+}
+.green {
+	color: #4BCFAC;
+}

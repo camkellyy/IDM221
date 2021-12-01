@@ -1,0 +1,139 @@
+/* GENERAL */
+html {
+    box-sizing: border-box;
+}
+body {
+	background-color: #0C0C0C;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 30;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.sticky li {
+	display: inline-block;
+	list-style: none;
+}
+ul {
+	padding: 0;
+}
+nav li a, button {
+	color: white;
+	font-size: .9rem;
+}
+
+/* NAV */
+.menu-icon {
+	font-size: 1.5rem;
+	margin-left: 14rem;
+}
+.logo {
+	color: #6172D9;
+	font-weight: bold;
+	margin-left: 1rem;
+}
+nav {
+	background: #0C0C0C;
+	background-color: rgba(12, 12, 12, .90);
+	margin-bottom: 1.5rem;
+	padding: .025rem 0;
+}
+
+/* MAIN BUTTONS */
+button {
+	background-color: transparent;
+    border-radius: 10%;
+	transition: 0.3s;
+}
+.contact-button {
+	border: 1.75px solid #FF9D44;
+	padding: .75rem 1rem;
+}
+.contact-button:hover{
+    background-color: #FF9D44;
+}
+main .contact-button {
+	margin-left: 1.125rem;
+}
+.white-button {
+	border: 1.75px solid white;
+	margin-left: .5rem;
+}
+.white-button:hover {
+    color: #0C0C0C;
+    background-color:white;
+}
+
+/* MAIN */
+.main-icon {
+	color: #6172D9;
+	font-size: 5rem;
+	padding-left: 1.5rem;
+}
+main p {
+	font-size: .73rem;
+	line-height: 1rem;
+    margin: 0 0 1.5rem 1rem;
+	padding-top: .5rem;
+}
+main h1 {
+	font: 3.5rem Staatliches;
+	font-weight: lighter;
+    line-height: 0;
+	margin: 2rem 0 2rem 1rem;
+	padding-top: .5rem;
+}
+h1 span {
+	background-color: #4BCFAC;
+	border: 0px solid #4BCFAC;
+	padding: 0rem .25rem;
+}
+
+/* FOOTER */
+footer{
+	padding-bottom: .75rem;
+	text-align: center;
+}
+.footer-icon {
+	font-size: 5rem;
+	color: #FF9D44;
+	text-shadow: .08rem .08rem white;
+}
+.navigation {
+	margin: 7rem 0;
+}
+.navigation ul {
+	margin: 0rem;
+}
+.navigation li {
+	list-style: none;
+	margin-top: 2rem;
+}
+
+/* FOOTER BUTTONS */
+.nav-button {
+	border: 1.75px solid #4BCFAC;
+}
+.nav-button:hover{
+	color: black;
+    background-color: #4BCFAC;
+}
+.home-button-nav {
+	padding: 1.5rem 2.875rem;
+}
+.contact-button-nav {
+	padding: 1.5rem 2.07rem;
+}
+.resume-button-nav {
+	padding: 1.5rem 2.3rem;
+}
+.work-button-nav {
+	padding: 1.5rem 2.825rem;
+}
