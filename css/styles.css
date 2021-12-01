@@ -47,7 +47,7 @@ nav {
 }
 
 /* MAIN BUTTONS */
-button {
+main a, .navigation a, .recent-work a {
 	background-color: transparent;
     border-radius: 10%;
 	transition: 0.3s;
@@ -79,7 +79,6 @@ main .contact-button {
 }
 main p {
 	font-size: .73rem;
-	line-height: 1rem;
     margin: 0 0 1.5rem 1rem;
 	padding-top: .5rem;
 }
