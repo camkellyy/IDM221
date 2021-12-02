@@ -24,7 +24,7 @@ a {
 ul {
 	padding: 0;
 }
-nav li a, button {
+nav li a {
 	color: white;
 	font-size: .9rem;
 }
