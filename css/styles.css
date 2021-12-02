@@ -47,7 +47,7 @@ nav {
 }
 
 /* MAIN BUTTONS */
-main a, .navigation a, .recent-work a {
+main a, .nav-button {
 	background-color: transparent;
     border-radius: 10%;
 	transition: 0.3s;
@@ -106,16 +106,15 @@ footer{
 	text-shadow: .08rem .08rem white;
 }
 .navigation {
-	margin: 7rem 0;
+	margin: 10rem 0;
 }
 .navigation ul {
 	margin: 0rem;
 }
 .navigation li {
 	list-style: none;
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
-
 /* FOOTER BUTTONS */
 .nav-button {
 	border: 1.75px solid #4BCFAC;

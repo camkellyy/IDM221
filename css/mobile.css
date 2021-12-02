@@ -17,12 +17,14 @@
 	background: white;
 	background-color: rgba(255, 255, 255, .50);
 	border: none;
+	border-radius: 10%;
 	color: black;
 	display: flex;
 	font-size: .75rem;
 	margin: 0 auto;
 	padding: .9rem!important;
 	position: absolute;
+	transition: 0.3s;
 	z-index:20;
 }
 
